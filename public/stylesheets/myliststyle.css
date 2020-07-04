@@ -1,0 +1,53 @@
+body {
+  padding: 10px;
+  background-color: #ddd !important;
+}
+
+a {
+  color: #00B7FF;
+}
+.row{
+	padding: 15px;
+}
+
+/*############################################################################*/
+.edit{
+	background-color: #333 !important;
+	color: rgb(0,200,0) !important;
+}
+
+.edit:hover{
+	background-color: rgb(0,200,0)!important;
+	color: #333  !important;
+}
+.delete{
+	background-color: #333 !important;
+	color: rgb(200,0,0) !important;
+}
+.delete:hover{
+	background-color: rgb(200,0,0)!important;
+	color: #333  !important;
+}
+.add-btn{
+	background-color: #333 !important;
+	color: rgb(0,200,0) !important;
+}
+.add-btn:hover{
+	background-color: rgb(0,200,0)!important;
+	color: #333  !important;
+}
+
+/*############################################################################*/
+
+.my-list-item{
+	margin-bottom: 30px;
+	box-shadow: 11px 13px 20px 0px #333;
+	border-radius: 20px;
+}
+
+
+
+.container .add-btn{
+	background-color: #333;
+	color: rgb(0,200,0);
+}

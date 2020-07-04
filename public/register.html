@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width initial-scale=1">
+	<title>Login</title>
+	<link href="./stylesheets/style.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+
+	<nav>
+		<div class="container">
+			<h1>Welcome to add-list</h1>
+		</div>
+	</nav>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-6 offset-md-3 ">
+					<div class="register-form">
+
+						<header class="register-head text-center"><h1>Register<h1></header>
+						<hr>
+						<div class="input-label">
+							<label for="email">Email-ID:</label>
+							<input type="email" name="email" for="email" class="form-control  " id="email">
+							<div class="error email-error">*Enter your email id to proceed</div>
+						</div>
+						<div class="input-label">
+							<label for="userid">UserID:</label>
+							<input type="text" name="userid" for="userid" class="form-control  " id="userid">
+							<div class="error userid-error">*Create userid (length>=6) to proceed</div>
+						</div>
+						<div class="input-label">
+							<label for="password">Password:</label>
+							<input type="password" name="password" for="password" class="form-control" id="password">
+							<div class="error password-error">*Create your password (length>=6)</div>
+							
+						</div>
+						<div class="input-label">
+							<label for="confirm-password">Confirm-Password:</label>
+							<input type="password" name="confirm-password" for="confirm-password" class="form-control" id="confirm-password">
+							<div class="error confirm-password-error">*re-type your password same as above</div>
+							
+						</div>
+						<div class="input-label">
+							<div class="server-message bg-danger form-control"></div>
+						</div>
+						<div class="input-label">
+							<input type="submit" class="btn register-btn form-control" action="" value="Register">
+						</div>
+						<div class="row">
+							<div class="col-12"><a href="index.html">Already have account, Login?</a></div>
+						</div>
+						
+					</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="./javascripts/register.js"></script>
+
+</body>
+
+</html>
